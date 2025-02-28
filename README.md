@@ -16,8 +16,10 @@ The project consists of three main stages:
 1️⃣ Image analysis and generation of a text description (Image Captioning)
 The BLIP (BlipForConditionalGeneration) model from Hugging Face is used
 It analyzes the image and produces an appropriate description in English
+
 2️⃣ Translate the text into Arabic (optional)
 Google Translator is used to translate the text if the user chooses Arabic
+
 3️⃣ Convert text to voice (Text-to-Speech - TTS)
 gTTS (Google Text-to-Speech) is used to create an audio file for the text
 An audio introduction is integrated with the text when Arabic is selected to improve clarity
@@ -31,21 +33,26 @@ Choose the language: English or Arabic
 Get:
 A text description of the image
 A sound file that can be played and listened to
+
 📌 After publishing the project on Hugging Face Spaces, it will be possible to play it directly from the browser without the need to download any additional programs
 
 ## 🤔 Reason for choosing models
+
 ✅ BLIP Image Captioning:
 
 Provides high quality description of images based on advanced deep learning
 It was trained on a large dataset, making it powerful in describing image content
+
 ✅ Google Translator:
 
 Supports translation between English and Arabic with high accuracy
 Easy to use and can be integrated directly into the project
+
 ✅ gTTS (Google Text-to-Speech):
 
 Supports Arabic and English with natural voice quality
 It can produce light and easy-to-play audio files
+
 ✅ Gradio:
 
 Enables easy building of an interactive user interface and supports integration with different models

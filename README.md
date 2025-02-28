@@ -3,6 +3,7 @@
 ## 🎙 Describing images with audio
 📌 Project idea and objectives
 The "Describing images with audio" project is an artificial intelligence system that analyzes images, generates a text description of them, translates them into Arabic (if necessary), and then converts the text into audio. The project aims to:
+
 ✅ Enable visually impaired people to understand image content via audio
 
 ✅ Improve the experience of users who prefer listening to reading
@@ -63,6 +64,7 @@ Create a new Space on Hugging Face
 Upload all project files
 Ensure that app.py is running as the main source of the application
 Publish the application and make it available to the public
+
 🎯🚀 The result: The project provides a smooth and interactive user experience that combines image analysis, translation, and text-to-speech, which enhances accessibility and usability in various situations
 
 🎉 Enjoy the experience of describing images with audio!
